@@ -13,12 +13,54 @@
   }
 }
 
+.header {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 40;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #362435;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+  ;
+}
+
+.navbar a{
+  position: relative;
+  font-size: 18px;
+  color: #EBDFCD;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 20px ;
+  margin-right: 20px;
+}
+
+.navbar a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #FAD8BA;
+  transition: .3s;
+
+}
+
+.navbar a:hover::before{
+  width: 100%;
+}
+
+
 .App-header {
   background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXhtMnFwc2dkcmIxbmM4M2c3Ymg4dGQ3MGxwM3MwZ3Ywb2h4MjY3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C8HcILg7Reyq8Bvb8G/giphy.gif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat, repeat;
-  background-color: #282c34;
+  background-color: #503212;
   min-height: vh;
   display: flex;
   flex-direction: column;
