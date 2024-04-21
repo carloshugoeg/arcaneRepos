@@ -10,13 +10,15 @@ class App extends Component {
       <HashRouter>
         <div className="App">
           <header className="App-header">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arcane_Title_Text.png" alt="logo1" />
+          <img className="img" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arcane_Title_Text.png" alt="logo1" />
           </header>
-          <ul className="header">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/Personajes">About</NavLink></li>
-            <li><NavLink to="/Lugares">Contact</NavLink></li>
-          </ul>
+          <header className="header">
+            <nav className="navbar">
+              <a><NavLink to="/">Sinopsis</NavLink></a>
+              <a><NavLink to="/Personajes">Personajes</NavLink></a>
+              <a><NavLink to="/Lugares">Lugares</NavLink></a>
+            </nav>
+          </header>
           <div className="content">
             <Routes>
               <Route exact path="/" element={<Sinopsis />}></Route>
