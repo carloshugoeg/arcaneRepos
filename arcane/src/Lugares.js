@@ -5,7 +5,7 @@ class Lugares extends Component {
     return (
       <div>
         <h3>SPA App - Contact</h3>
-        <p>Please feel free to contact us with any questions or inquiries you may have. We are always happy to help!</p>
+        <p>HOlAAAAA</p>
         <h4>Contact Details:</h4>
         <ul>
         <li><strong>Email:</strong> info@example.com</li>
