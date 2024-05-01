@@ -1,0 +1,76 @@
+Personajes
+.diseño{
+  margin: 0px;
+  padding: 0px;
+}
+
+.tarjeta{
+  height: 500px;
+  width: 350px;
+  border-radius: 3px;
+  transition: .5s;
+}
+
+.container{
+ display: flex;
+}
+
+.body{
+ display: flex;
+ justify-content: center;
+ height: 100vh;
+ background: whitesmoke;
+ align-items: center
+}
+
+.card{
+  height: 500px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+ }
+
+ .intro{
+  height: 370px;
+  width: 335px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 570px;         
+  bottom: 20px;
+  background: rgb(27, 27, 27, .5);
+  color: white;
+  transition: .5s;
+ }
+
+
+ h1{
+  margin: 10px;
+  font-size: 40px;
+ }
+
+ p :hover{
+  font-size: 20px;
+  margin: 20px;
+ }
+
+
+ .card:hover{
+  cursor: pointer;
+ }
+
+ .card:hover .intro{
+  height: 220px;
+  bottom: 240px;
+  blackground: black;
+ }
+
+
+ .card:hover .p{
+  opacity:1;
+  visibility: visible;
+ }
+
+ .card:hover .tarjeta{
+  transform: scale(1, 1) rotate(-3deg)
+ }
