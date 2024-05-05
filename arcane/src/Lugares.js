@@ -23,7 +23,7 @@ class Lugares extends Component {
         <div className="slider-box">
           <ul>
             <li>
-              <img src="carrousel/piltover.jpg" alt=""></img>
+              <img src="https://images.contentstack.io/v3/assets/blt0952b6ad20dfb00a/blt83c3f9e9f5a50103/6183475d19df7c77cdb1fc44/Rooftop_1200x677.jpg" alt=""></img>
               <div className ="texto">
               <h2>LA CIUDAD DEL PROGRESO</h2>
               <p>
@@ -32,7 +32,7 @@ class Lugares extends Component {
               </div>
             </li>
             <li>
-            <img src="carrousel/zaun.jpg" alt=""></img>
+            <img src="https://images.contentstack.io/v3/assets/blt0952b6ad20dfb00a/blt5fe49d0e6aa01302/61265b5785514a6ee3fa96f2/zaun.jpg" alt=""></img>
             <div className="texto">
               <h2>LA CIUDAD SUBTERRÁNEA</h2>
               <p>
