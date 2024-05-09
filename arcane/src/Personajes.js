@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Personajes extends Component {
   render() {
+    Luis
     const myDiv = document.querySelector('div');
     myDiv.style.color = 'purple'
       return (
@@ -51,7 +52,7 @@ class Personajes extends Component {
               <p>Mel, la hija de una de las familias más famosas de Runaterra, fue una paria desde pequeña. En Piltover, ha encontrado su lugar como líder de la ciudad y con ese éxito ha llamado la atención de su familia, para bien o para mal.</p>
             </div>
           </div>
-
+        
           <div class = "card">
             <img src = "https://phantom-marca.unidadeditorial.es/2e94ee3d1988e72a33b4a4f460c9712c/resize/990/f/webp/assets/multimedia/imagenes/2021/09/27/16327333072552.jpg" alt="Personaje1" class="tarjeta"></img>
             <div class = "intro">
