@@ -13,6 +13,9 @@ Personajes
 
 .container{
  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
 
 .body{
@@ -74,3 +77,19 @@ Personajes
  .card:hover .tarjeta{
   transform: scale(1, 1) rotate(-3deg)
  }
+
+ .elemento {
+  /* Estilos base */
+}
+
+.elemento:hover {
+  /* Estilos hover para escritorio */
+}
+
+.elemento:active { /* o :touchstart */
+  /* Estilos hover para móvil */
+}
+
+.elemento:not(:active) { /* o :touchend */
+  /* Eliminar estilos hover para móvil */
+}

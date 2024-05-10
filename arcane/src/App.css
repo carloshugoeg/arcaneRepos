@@ -122,8 +122,10 @@ Personajes
 .card{
   height: 500px;
   margin: 50px;
+  width: 355px;
   box-shadow: 10px 10px 20px rgb(167, 2, 84);
   overflow: hidden;
+  
  }
 
  .intro{
@@ -162,7 +164,7 @@ Personajes
 
  .card:hover .intro{
   height: 300px;
-  bottom: 240px;
+  bottom: 300px;
   background: rgb(85, 7, 59);
  }
 
