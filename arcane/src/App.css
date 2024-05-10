@@ -92,6 +92,90 @@
   }
 }
 
-.content{
-  background-color: #EDE0CE;
+
+
+Personajes
+.diseño{
+  margin: 0px;
+  padding: 0px;
 }
+
+.tarjeta{
+  height: 500px;
+  width: 350px;
+  border-radius: 3px;
+  transition: .5s;
+}
+
+.container{
+  display: flex;
+}
+
+.body{
+ display: flex;
+ justify-content: center;
+ height: 200vh;
+ background: whitesmoke;
+ align-items: center;
+}
+
+.card{
+  height: 500px;
+  margin: 50px;
+  width: 355px;
+  box-shadow: 10px 10px 20px rgb(167, 2, 84);
+  overflow: hidden;
+  
+ }
+
+ .intro{
+  height: 380px;
+  width: 335px;
+  padding: 9px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;       
+  bottom: 30px;
+  background: rgba(121, 12, 54, 0.5);
+  color: white;
+  transition: .5s;
+ }
+
+
+ h1{
+  margin: 10px;
+  font-size: 40px;
+ }
+ 
+ h3{
+  margin: 10px;
+  font-size: 40px;
+ }
+
+ p :hover{
+  font-size: 40px;
+  margin: 10px;
+ }
+
+
+ .card:hover{
+  cursor: pointer;
+ }
+
+ .card:hover .intro{
+  height: 300px;
+  bottom: 300px;
+  background: rgb(85, 7, 59);
+ }
+
+
+ .card:hover .p{
+  opacity:1;
+  visibility: visible;
+  justify-content: center;
+  display: flex;
+ }
+
+ .card:hover .tarjeta{
+  transform: scale(1, 1) rotate(-3deg)
+ }
