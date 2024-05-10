@@ -19,10 +19,10 @@ class Sinopsis extends Component {
         <br></br>
         <br></br>
         <p>En las brumosas calles de Piltover, donde la innovación tecnológica se eleva a alturas inimaginables,
-           yace Zaun, un submundo plagado por la miseria y la desesperación. 
-           En este escenario de contrastes extremos, dos hermanas, 
-           Vi y Jinx, se ven arrastradas por un torbellino de violencia, 
-           traición y secretos que amenazan con destruir todo lo que les es querido.</p>
+          yace Zaun, un submundo plagado por la miseria y la desesperación. 
+          En este escenario de contrastes extremos, dos hermanas, 
+          Vi y Jinx, se ven arrastradas por un torbellino de violencia, 
+          traición y secretos que amenazan con destruir todo lo que les es querido.</p>
         <br></br>
         <div class="Cajitas">
           
@@ -45,7 +45,7 @@ class Sinopsis extends Component {
           la desigualdad y la ambición. A través de una animación vibrante y un 
           estilo visual único, la serie nos sumerge en un universo donde la tecnología y 
           la magia se entrelazan, dando vida a personajes memorables y complejos que lucharán
-           por encontrar su lugar en un mundo cruel e implacable.  </p>
+          por encontrar su lugar en un mundo cruel e implacable.  </p>
         <br></br>
         </dv>
         
@@ -74,7 +74,6 @@ class Sinopsis extends Component {
               <p> </p>
             </div>
             <figure>
-             
             </figure>
         
 

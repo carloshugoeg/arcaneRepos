@@ -1,10 +1,15 @@
 import React, { Component } from "react";
-
+import './personajes.css';
 
 
 class Personajes extends Component {
+  scrollToSlide = (slideId) => {
+    const slide = document.getElementById(slideId);
+    if (slide) {
+      slide.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+    }
+  }
   render() {
-    Luis
     const myDiv = document.querySelector('div');
     myDiv.style.color = 'purple'
       return (
@@ -14,9 +19,8 @@ class Personajes extends Component {
         <body>
         <section class = "diseño">
 
-        
-
-        <div class="container">
+        <div class="contenedor-tarjetas">
+        <div class="container1">
           <div class = "card">
             <img src = "https://phantom-marca.unidadeditorial.es/a640bee7a22bc819a1178e56cfd18550/resize/990/f/webp/assets/multimedia/imagenes/2021/09/27/16327333026585.jpg" alt="Personaje1" class="tarjeta"></img>
             <div class = "intro">
@@ -45,7 +49,7 @@ class Personajes extends Component {
           </div>
           </div>
           
-          <div class="container">
+          <div class="container1">
           <div class = "card">
             <img src = "https://phantom-marca.unidadeditorial.es/1e7061211df39aa22b3a5ff1fe00d746/resize/990/f/webp/assets/multimedia/imagenes/2021/09/27/16327333061804.jpg" alt="Personaje1" class="tarjeta"></img>
             <div class = "intro">
@@ -73,7 +77,7 @@ class Personajes extends Component {
           </div>
           </div>
           
-          <div class="container">
+          <div class="container1">
           <div class = "card">
             <img src = "https://phantom-marca.unidadeditorial.es/1bd111fc05d88beb98b6e2562147b48f/resize/990/f/webp/assets/multimedia/imagenes/2021/09/27/16327333042631.jpg" alt="Personaje1" class="tarjeta"></img>
             <div class = "intro">
@@ -92,6 +96,8 @@ class Personajes extends Component {
             </div>
           </div>
           </div>
+        </div>
+        
           
 
           </section>
@@ -104,5 +110,5 @@ class Personajes extends Component {
       );
   
   }
-  }
+}
   export default Personajes;
